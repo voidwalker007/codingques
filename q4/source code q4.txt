@@ -1,0 +1,44 @@
+int main()
+
+{
+
+int A[n]={70,68,97,50,40,85,60,70,6000};
+
+Int B[m]={10,20,30,60};
+
+
+
+int x = sizeof(A)/sizeof(A[0]);
+
+sort(A, A+x);
+
+
+
+count=45;
+
+for(i=1;i<j;i++)
+
+{
+
+    for(j=n-1;j>i;j++)
+
+     {
+
+         if(A[i]+A[j]<140)
+
+         {
+
+            count=count+15;
+
+         }
+
+}}
+
+
+
+cout<<count;
+
+}
+
+
+
